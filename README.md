@@ -1,11 +1,11 @@
 # Microserviço: payment-service
 
 ### Method: GET
-* **Endpoint:** http://localhost:8080/payment-service/{idTransacao}
+* *Endpoint:* http://localhost:8080/payment-service/{idTransacao}
 
 ### Method: POST
-* **Endpoint:** http://localhost:8080/payment-service/
-* **Payload:** 
+* *Endpoint:* http://localhost:8080/payment-service/
+* *Payload:* 
 ```json5
 {
     "idTransacao": 1,
@@ -15,12 +15,12 @@
     "bandeira": "VISA"
 }
 ```
-* **Response:** http://localhost:8080/payment-service/{idTransacao}
+* *Response:* http://localhost:8080/payment-service/{idTransacao}
 
 ### Method: PATCH
-* **Endpoint:** http://localhost:8080/payment-service/{idTransacao}
+* *Endpoint:* http://localhost:8080/payment-service/{idTransacao}
 
-* **Payload:** 
+* *Payload:* 
 ```json5
 {
     "numeroCartao": "1111-2222-3333-4444",
@@ -29,8 +29,8 @@
     "bandeira": "Mastercard"
 }
 ```
-* **Response:** http://localhost:8080/payment-service/{idTransacao}
+* *Response:* http://localhost:8080/payment-service/{idTransacao}
 
 ### Method: DELETE
-* **Endpoint:** http://localhost:8080/payment-service/{idTransacao}
+* *Endpoint:* http://localhost:8080/payment-service/{idTransacao}
 
