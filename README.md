@@ -1,6 +1,7 @@
 # Microserviço: payment-service
 
 ### Method: GET
+
 * *Endpoint:* http://localhost:8080/payment-service/{idTransacao}
 
 ### Method: POST
